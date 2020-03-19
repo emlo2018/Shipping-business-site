@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url("content/big-ship.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+nav {
+  display: block;
+  width: 100%;
+  font-size: x-large;
+}
+
+.blue {
+  color: #61b0f5;
+}
+
+.white {
+  background-color: #ffff;
+}
+
+.white p {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.top-section {
+  color: #ffffff;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50%;
+  font-size: x-large;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-section a {
+  font-size: 1rem;
+  width: 40px;
+  height: 25px;
+}
+
+.top-section p {
+  margin-top: 20px;
+}
+
+.border {
+  border: solid 2px #ffff;
+  padding: 0.5rem;
+}
+
+.white-button {
+  background-color: #ffff;
+  border: solid #fff;
+  padding: 0.5rem;
+}
+
+.about {
+  background-color:#61b0f5b7;
+  color: #ffffff;
+  padding: 1.5em;
+}
+
+p {
+  margin: 12px;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+.contact-form {
+  background-color:#61b0f5b7;
+  color: #ffffff;
+  padding: 1.5em;
+}
+
+.text-input {
+  height: 50px;
+  width: 180px;
+}
+
+.submit {
+  width: fit-content;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  margin: 10px;
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+  border-style: solid;
+}
+
+.card {
+display: flex;
+flex-wrap: wrap;
+padding-top: 20px;
+justify-content: center;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+footer {
+  background-color: rgb(31, 29, 29);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2rem;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+background-color:black;
+width: 20px;
+height: 20px;
+margin: 20px;
+filter: invert();
+padding: 5px;
+border-radius: 2px;
+}
