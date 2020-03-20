@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: relative;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -26,7 +27,6 @@ header {
 nav {
   display: flex;
   width: 100%;
-  font-size: x-large;
   justify-content: space-between;
 }
 
@@ -194,6 +194,10 @@ border-radius: 2px;
 
 body {
   font-size: larger;
+}
+
+nav {
+  font-size: x-large;
 }
 
 .row {
