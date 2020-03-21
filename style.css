@@ -36,7 +36,7 @@ p {
 
 img {
   /* display: flex; */
-  width: 100%;
+  width: 50%;
 }
 
 
@@ -198,6 +198,10 @@ body {
 
 nav {
   font-size: x-large;
+}
+
+img {
+  width: 100%;
 }
 
 .row {
