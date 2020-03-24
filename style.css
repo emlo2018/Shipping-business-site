@@ -8,10 +8,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: absolute;
+  background-position: relative;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  justify-content: center;
-  align-items: center;
 }
 
 a {
